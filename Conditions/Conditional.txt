@@ -1,0 +1,93 @@
+if (condition) {
+  // code to run if condition is true
+} else {
+  // code to run if condition is false
+}
+Deepak Yadav
+07:46
+if (condition) {
+  // code to run if condition is true
+} else {
+  // code to run if condition is false
+}
+
+
+switch (expression) {
+  case value1:
+    // code to run if expression === value1
+    break;
+
+  case value2:
+    // code to run if expression === value2
+    break;
+
+  default:
+    // code to run if no case matches
+}
+
+
+condition ? expressionIfTrue : expressionIfFalse;
+
+
+
+
+ 1. If...Else Practice Questions
+Check even or odd
+Write a program to check if a number is even or odd using if...else.
+
+Check age eligibility
+Take a user's age and check if they are eligible to vote (age ≥ 18).
+
+Number is positive, negative or zero
+Check whether a given number is positive, negative, or zero.
+
+Greatest of two numbers
+Find the greater number between two variables.
+
+Password validation
+Check if the entered password is equal to "admin123" and show "Access granted" or "Access denied".
+
+
+
+
+
+ 2. Switch Statement Practice Questions
+Days of the week
+Input a number (1–7) and print the corresponding day name.
+
+Calculator
+Use switch to perform +, −, ×, ÷ operations based on the operator input.
+
+Traffic signal
+Input one of "red", "yellow", or "green" and print the corresponding action.
+
+Grade message
+Based on grade A, B, C, D, or F, print the performance.
+
+Fruit price
+Input fruit name ("apple", "banana", "orange") and display the price.
+
+
+
+
+ Even or odd (one-liner)
+Use ternary to check if a number is even or odd.
+
+Vote eligibility
+Print "Eligible" or "Not eligible" based on age in a single line.
+
+Check login
+If isLoggedIn is true, print "Welcome" else "Please login".
+
+Temperature check
+If temp > 30, print "Hot" else "Pleasant" using ternary.
+
+Pass/Fail
+If marks are 40 or above, print "Pass" else "Fail" in one line.
+
+
+
+
+ git add .
+git commit -m "initian code "
+git push origin main
