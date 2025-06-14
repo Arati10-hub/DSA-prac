@@ -74,6 +74,10 @@ function filterEven(arr1) {
 }
 console.log(filterEven(arr1));
 
+
+
+
+
 // write a function that reverses a string.
 function reverseString(str) {
   let reversedStr = "";
@@ -84,6 +88,25 @@ function reverseString(str) {
   return reversedStr;
 }
 console.log(reverseString("JavaScript"));
+
+
+
+// count vowels in a given string.
+function vowels(str) {
+  let vow = "aeiouAEIOU";
+  count = 0;
+  for (i = 0; i < str.length; i++) {
+    if (vow.includes(str[i])) {
+      count++;
+    }
+   
+  }
+  return (count);
+}
+
+console.log(vowels("Arati"));
+
+
 
 // write a function that checks if a string is a palindrome.
 function isPalindrome(str) {
@@ -130,4 +153,6 @@ function outer() {
 
 
 outer();
+
+
 
