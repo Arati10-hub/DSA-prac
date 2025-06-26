@@ -31,7 +31,7 @@ console.log(countChar("hello world"));
 
 function removeDuplicates(arr) {
   for (let i = 0; i < arr.length; i++) {
-    for (let j = 0; j < arr.length - 1; j++) {
+    for (let j = 0; j < arr.length-1 ; j++) {
       if (arr[j] > arr[j + 1]) {
         let temp = arr[j];
         arr[j] = arr[j + 1];
@@ -65,8 +65,33 @@ function reverseWords(sentence) {
   let reversed = "";
   for (let i = words.length - 1; i >= 0; i--) {
     reversed = reversed + words[i] + " ";
-  }
+  }                               
   return reversed;
 }
 
 console.log(reverseWords("JavaScript is fun"));
+
+
+// 4. Find the Longest Word in a Sentence
+
+// Problem:
+// Write a function that finds the longest word in a sentence.
+// Example Input:
+// findLongestWord("my name is arati lachure");
+
+function findLongestWord(sentence) {
+    let words=sentence.split(" ");
+    let longestWord=" ";
+    for(let i=0;i<words.length;i++){
+        if(words[i].length>longestWord.length){
+            longestWord=words[i];
+        }
+    }
+    return longestWord; 
+}
+
+
+console.log(findLongestWord("my name is arati lachure"));
+
+
+
